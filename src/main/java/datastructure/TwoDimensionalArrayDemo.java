@@ -11,4 +11,13 @@ public class TwoDimensionalArrayDemo {
      * Later get those value by index and also by using any iteration process
      *
      *  */
+
+    public static void main(String[] args) {
+        int[][] array = { { 1, 2 }, { 3, 4 } };
+
+        for (int x = 0; x < 2; x++)
+            for (int y = 0; y < 2; y++)
+                System.out.println("array [" + x + "][" + y + "] = " + array[x][y]);
+    }
+
 }
