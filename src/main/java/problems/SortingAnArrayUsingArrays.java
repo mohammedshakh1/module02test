@@ -20,7 +20,6 @@ public class SortingAnArrayUsingArrays {
         printArray(array, "Sort in case insensitive order");
 
     }
-
     public static void printArray(String[] array, String methodDescription){
         System.out.println("Sorted using "+methodDescription );
         for(String str : array){
