@@ -11,4 +11,15 @@ public class StringAPI {
      * by reading your comments/documents
      *
      * */
+
+    public static void main(String[] args) {
+        String name = "Asif";
+        String name1 = name.toUpperCase();
+        System.out.println(name1);
+
+        int size = name.length();
+        System.out.println(size);
+
+
+    }
 }
